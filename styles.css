@@ -1,0 +1,251 @@
+body{
+  margin: 0;
+}
+.color{
+  display: flex;
+  background-color: #FFD700;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+}
+.tabs{
+  list-style-type: none;
+  overflow: visible;
+  padding: 0;
+  display: inline-block;
+  padding-top: 17px;
+}
+.social{
+  padding-top: 6px;
+}
+.items{
+  float: left;
+}
+.background{
+  padding-bottom: 15px;
+  padding-left: 12px;
+  display: block;
+}
+.background-Dawn {
+  position: fixed;
+  opacity: 0.6;
+  z-index: -1;
+  height:200%;
+  width: 200%;
+  filter: blur(30px);
+  top: -50%;
+  left: -7%;
+  background-color: black;
+}
+.center{
+  display: inline-block;
+  padding: 0;
+}
+.logo{
+  color: black ;
+}
+.icons{
+  height: 31px;
+  width: 23px;
+  padding: 0;
+  display: inline-block;
+  padding-top: 15px;
+  padding-right: 8px;
+}
+.dawn{
+  height: 100%;
+  width: 100%;
+}
+.gold{
+  background-image: url(gold.png);
+}
+.video{
+  margin-left: 300px;
+}
+.footer{
+  background-color: #050505;
+}
+.music{
+  width: 320px;
+  position: relative;
+  margin: 0 auto;
+}
+.music-player{
+  z-index: 4;
+  overflow: visible;
+}
+.player-img{
+  position: absolute;
+  width: 320px;
+  min-height: 320px;
+  top: 160px;
+  transform: translate3d(0px, -50%, 0px);
+}
+.button{
+  z-index: 5;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  border-width: 17px 0px 17px 24px;
+  border-color: transparent transparent transparent #202020;
+  margin-top: 155px;
+  margin-left: 150px;
+}
+.banner{
+  display: block;
+  position: static;
+  z-index: 6;
+  width: 320px;
+
+}
+.header{
+  background-color: #181818;
+  color: #fff;
+  z-index: 7;
+  padding: 1.6rem 2rem 2rem;
+  border: solid;
+  border-color: black;
+  position: fixed;
+  transform: translate(0px, 129px);
+  border-left-width: 35.7px;
+  border-right-width: 36.4px;
+}
+
+.header-pre{
+  background-color: #181818;
+  color: #fff;
+  z-index: 7;
+  padding: 1.6rem 2rem 2rem;
+  border: solid;
+  border-color: black;
+  position: fixed;
+  transform: translate(0px, 129px);
+  border-left-width: 19.6px;
+  border-right-width: 19.6px;
+}
+.header-Plum{
+  background-color: #181818;
+  color: #fff;
+  z-index: 7;
+  padding: 1.6rem 2rem 2rem;
+  border: solid;
+  border-color: black;
+  position: fixed;
+  transform: translate(0px, 129px);
+  border-left-width: 36.6px;
+  border-right-width: 36.6px;
+}
+.header-Mas{
+  background-color: #181818;
+  color: #fff;
+  z-index: 7;
+  padding: 1.6rem 2rem 2rem;
+  border: solid;
+  border-color: black;
+  position: fixed;
+  transform: translate(0px, 129px);
+  border-left-width: 23.55px;
+  border-right-width: 23.55px;
+}
+.stream{
+  transform: translate(0px, 215px);
+  position: static;
+  margin-bottom: 60px;
+}
+.music-title{
+  margin-left: 50px;
+}
+
+.Locations{
+  width: 100%;
+  height: 80vh;
+  margin-top: 2rem;
+}
+
+
+.cycle {
+  position: absolute;
+  width: 300%;
+  display: flex;
+  transition: all 400ms;
+}
+
+.cycle.first {
+  right: -200%;
+}
+
+.cycle.second {
+  right: -100%;
+}
+
+.cycle.third {
+  right: 0%;
+}
+
+
+.north {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cycle1 {
+  position: absolute;
+  left: 0;
+}
+
+.cycle2 {
+  position: absolute;
+  left: 33%;
+}
+
+.cycle3 {
+  position: absolute;
+  left: 66%;
+}
+
+.America-image {
+  border: solid 8px white;
+  border-radius: 50%;
+  height: 272px;
+  width: 272px;
+}
+
+.info {
+  margin-top: 1rem;
+  border: solid 15px white;
+  border-radius: 2px;
+  background: white;
+}
+
+.info p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.dots {
+  align-self: baseline;
+  margin-top: 28rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.dot {
+  border: solid 1px black;
+  border-radius: 100%;
+  height: 8px; width: 8px;
+  margin-right: 1rem;
+  transition: all 200ms;
+}
+
+.dot:hover {
+  background: black;
+}
